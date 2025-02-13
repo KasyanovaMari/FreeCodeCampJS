@@ -2,9 +2,6 @@
 const myArray = [];
 
 // Only change code below this line
-let i = 0;
-while (i < 6) {
+for (let i = 9; i > 0; i = i - 2){
   myArray.push(i);
-  i++;
 }
-myArray.reverse()
